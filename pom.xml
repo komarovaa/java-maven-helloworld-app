@@ -3,8 +3,12 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.qianhong.javaapp</groupId>
   <artifactId>java-maven-helloworld-app</artifactId>
-  <packaging>jar</packaging>
+  <packaging>war</packaging>
   <version>1.0-SNAPSHOT</version>
+  <properties>
+    <maven.compiler.source>17</maven.compiler.source>
+    <maven.compiler.target>17</maven.compiler.target>
+  </properties>
   <name>java-maven-helloworld-app</name>
   <url>http://maven.apache.org</url>
   <dependencies>
